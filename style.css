@@ -1,0 +1,563 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    margin:0;
+    
+    
+}
+
+.menu_principal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(54, 241, 54);
+    padding:10px;
+    border: 1px solid;
+}
+
+.logo{
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    color: rgb(4, 75, 4);
+    
+}
+
+.imagem_logo{
+    width: 50px;
+    height:35px;
+}
+.logo1{
+    display: flex;
+    align-items: center;
+    gap:10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.logo1:hover{
+    background-color:rgb(38, 214, 38);
+}
+
+.logo1:active{
+    background-color: rgb(36, 167, 36);
+}
+
+.logo1 a{
+    text-decoration: none;
+}
+ 
+
+
+.topicos{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.menu a{
+    font-size: 22px;
+    text-decoration: none;
+    color: rgb(4, 75, 4);
+}
+
+.botao:hover{
+    background-color:rgb(38, 214, 38);
+}
+
+.botao:active{
+    background-color:rgb(36, 167, 36);
+}
+
+ .box{
+    display: flex;
+    gap: 20px;
+    
+    
+}
+
+.box_adicional{
+    background-color: rgb(248, 248, 60);
+    height: 430px;
+    margin-right: 10px;
+    margin-top: 25px;
+}
+    
+.adicionais{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    width: 150px;;
+    list-style: none;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    margin-left:20px; 
+}
+
+.destaque{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    padding-left: 1px;
+    margin-top: 0px;
+}
+
+.bem_vindo{
+    display: flex;
+    align-items: center;
+    font-size:12px;
+    color:rgb(2, 2, 129) ;
+}
+
+.cor{
+    color: green;
+    font-size:15px ;
+    
+}
+
+.destaque2{
+    background-color: rgb(248, 248, 60);
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap:wrap ;
+    padding: 50px;
+}
+
+.card{
+    width: 250px;
+    height:260px;
+    background-color:rgb(54, 241, 54);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:rgb(4, 75, 4);
+    border:1px solid;
+    border-radius: 15px;
+    gap: 15px;
+}
+
+.imagem_cards{
+    height: 180px;
+    width: 230px;
+    border-radius: 15px;
+    border: 1px solid;
+}
+
+.card:hover{
+    transform: translate(-10px);
+    box-shadow: 0 10px 20px rgb(4, 75, 4);
+
+}
+
+.card a{
+    text-decoration: none;
+    color: rgb(4, 75, 4);
+    font-size:25px;
+}
+
+.card a:hover{
+    background-color: rgb(38, 214, 38);
+}
+
+.card a:active{
+    background-color:rgb(36, 167, 36);
+}
+
+.video{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    gap:90px;
+}
+
+.video2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: green;
+}
+
+.video3{
+    width: 350px;
+    height: 250px;
+    border-radius: 15px;
+}
+/* --------------------------------------------------------------------------------------------------------- */
+.secao_destinos{
+    display: flex;
+    flex-direction: column;
+}
+
+.destinos1{
+    display: flex;
+    flex-direction: column;
+    margin:0px;
+    font-size: 25px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.lista_destinos {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style: none;
+}
+.lista_destinos li:first-child{
+   color: green;
+   
+}
+
+.destinos{
+    background-color: rgb(248, 248, 60);
+}
+
+.topicos2{
+   font-size: 22px;
+}
+
+.ex{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    text-align: center;
+}
+/* ------------------------------------------------------------------------------------------------------- */
+.hero-promocoes{
+ padding: 10px;
+ max-width: 800px; 
+ margin: 10px auto; 
+ text-align: center; 
+margin-bottom: 5px;
+}
+
+.tabela {
+ padding: 0;
+ margin-top: 5px;
+}
+
+table {
+ width: 100%;
+ border-collapse: collapse;
+ background-color: white;
+}
+
+th, td {
+ padding: 12px;
+ border: 1px solid #ddd;
+ text-align: center;
+}
+
+th {
+ background-color: #23af5d;
+ color: white;
+}
+
+tr:hover {
+ background-color: #f1f1f1;
+}
+
+.titulo_tabela{
+ margin-bottom: 15px;
+}
+
+.intro p {
+ margin: 5px 0;
+}
+
+.tabela h2 {
+ margin: 10px 0;
+ text-align: center;
+}
+
+.destinos2{
+ display: flex;
+ justify-content: center;
+ gap: 20px;
+ padding-top: 0;
+ margin-top: 5px;
+}
+
+.card-destino {
+ text-align: center;
+ width: 200px;
+ margin-top: 10px;
+}
+
+.card-destino img {
+ width: 100%;
+ height: 150px;
+ object-fit: cover;
+ border-radius: 10px;
+}
+
+.card-destino p {
+ margin-top: 8px;
+ font-weight: bold;
+}
+
+.botao-reserva{
+ background-color: #23af5d;
+ color: white;
+ padding: 10px 20px;
+ border: none;
+ cursor: pointer;
+ border-radius: 6px;
+ transition: 0.3s;
+}
+
+.botao-reserva:hover {
+ background-color: #1c8f4a;
+}
+
+.centra {
+ text-align: center;
+ padding-bottom: 40px;
+ margin-bottom: 5px;
+}
+
+/* ------------------------------------------------------------------------------------------------ */
+.rodape{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    margin-left: 40px;
+    color: rgb(4, 75, 4);
+    font-size: 15px;
+}
+
+.integrantes{
+    display: flex;
+    flex-direction: column;
+    list-style:none;
+    margin: 0;
+    gap: 3px;
+    padding: 0;
+}
+
+.rodape2{
+    margin-top: 0;
+}
+
+/* ------------------------------------------------------------------------------------------------------ */
+        
+.topogastronomia {
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}
+
+.culinaria {
+    padding: 20px;
+}
+
+.culinaria2 {
+    padding-bottom: 5px;
+    color: green;
+}
+
+.pratos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    background-color: #f0fff0;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.card2 {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+.card2:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.card2 img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.destaque3 {
+    color: green;
+    font-weight: bold;
+}
+
+.imagens{
+    width:90px;
+    height: 170px;
+}
+/* -----------------------------------------------------------------------------------------------------        */
+ .servicos {
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+.servicos h1 {
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+
+.servicos p {
+  max-width: 800px;
+  line-height: 1.6;
+
+}
+
+.servicos h2 {
+  max-width: 800px;
+  font-size: 22px;
+  color: green;
+}
+
+
+/* --------------------------------------------------------------------------------------------------- */
+.experiencias {
+  padding: 10px 20px 5px;
+  margin-left: 50px;
+}
+
+.experiencias h1 {
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+
+.experiencias p {
+  max-width: 800px;
+}
+
+.experiencias h2 {
+  max-width: 800px;
+  font-size: 22px;
+  color:green;
+}
+.cta{
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+/* ----------------------------------------------------------------------------------------- */
+.tabela {
+ padding: 0;
+ margin-top: 5px;
+}
+
+table {
+ width: 100%;
+ border-collapse: collapse;
+ background-color: white;
+}
+
+th, td {
+ padding: 12px;
+ border: 1px solid #ddd;
+ text-align: center;
+}
+
+th {
+ background-color: #23af5d;
+ color: white;
+}
+
+tr:hover {
+ background-color: #f1f1f1;
+}
+h1{
+ margin-bottom: 15px;
+}
+.intro p {
+ margin: 5px 0;
+}
+
+.tabela h2 {
+ margin: 10px 0;
+ text-align: center;
+}
+.destinos3{
+ display: flex;
+ justify-content: center;
+ gap: 20px;
+ padding-top: 0;
+ margin-top: 5px;
+}
+
+.card-destino {
+ text-align: center;
+ width: 200px;
+ margin-top: 10px;
+}
+
+.card-destino img {
+ width: 100%;
+ height: 150px;
+ object-fit: cover;
+ border-radius: 10px;
+}
+
+.card-destino p {
+ margin-top: 8px;
+ font-weight: bold;
+}
+.botao-reserva{background-color: #23af5d;
+ color: white;
+ padding: 10px 20px;
+ border: none;
+ cursor: pointer;
+ border-radius: 6px;
+}
+
+.botao-reserva:hover {
+ background-color: #1c8f4a;
+}
+.cta {
+ text-align: center;
+ padding-bottom: 5px;
+ margin-bottom: 5px;
+}
+
+.titulo_tabela{
+    font-size: 25px;
+}
+
+.subtitulo_tabela{
+    font-size: 22px;
+    color: green;
+}
+
+/* ----------------------------------------------------------------------------------------------------- */
+.contatos1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    
+}
+.contatos{
+    font-size:25px;
+    margin-top: 30px;
+}
+
+.subtitulo_contato{
+    font-size: 22px;
+    color: green;
+}
+
+.lista_contatos{
+    padding-left: 1px;
+    list-style: none;
+}
